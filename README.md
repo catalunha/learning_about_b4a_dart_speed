@@ -1,2 +1,1 @@
-A sample command-line application with an entrypoint in `bin/`, library code
-in `lib/`, and example unit test in `test/`.
+catalunha@pop-os:~/myapp/learning_about_b4a_dart_speed$ dart bin/learning_about_b4a_dart_speed.dart 
