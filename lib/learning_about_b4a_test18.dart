@@ -1,12 +1,11 @@
 import 'dart:io';
 import 'package:parse_server_sdk/parse_server_sdk.dart';
 
-void learningAboutB4aTest18() async {
+void learningAboutB4aTest180() async {
   print('Start');
   await initialize();
   QueryBuilder<ParseObject> query =
       QueryBuilder<ParseObject>(ParseObject('Table3'));
-  // query.keysToReturn(['colB']);
   query.selectKeys('colB', 'a');
   var parseResponse = await query.query();
 
