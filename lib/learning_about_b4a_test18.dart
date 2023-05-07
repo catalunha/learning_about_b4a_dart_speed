@@ -1,7 +1,7 @@
 import 'dart:io';
 import 'package:parse_server_sdk/parse_server_sdk.dart';
 
-void learningAboutB4aTest180() async {
+void learningAboutB4aTestSelectKeys() async {
   print('Start');
   await initialize();
   QueryBuilder<ParseObject> query =
